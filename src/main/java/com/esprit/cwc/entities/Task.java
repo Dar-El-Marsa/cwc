@@ -50,6 +50,7 @@ public class Task implements Serializable {
 
 	
 	@ManyToOne
+	@JoinColumn(nullable=false)
 	public Project getProject() {return project;}
 	public void setProject(Project project) {this.project = project;}
 	
