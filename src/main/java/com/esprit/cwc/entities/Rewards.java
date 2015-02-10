@@ -1,10 +1,10 @@
 package com.esprit.cwc.entities;
 
-import java.util.Enumeration;
-import java.util.Vector;
-
-public class Rewards {
-	Enumeration <String> All;
+public enum Rewards {
+	Week_end , Money , Premium_wage
+	
+}
+	/*Enumeration <String> All;
 	Vector <String> rewardsTypes = new Vector<String>();
 	
 	Enumeration<String> getRewards(){
@@ -15,4 +15,4 @@ public class Rewards {
 		return All;
 	}
  	
-}
+}*/
